@@ -10,8 +10,6 @@
 
         decimal PreviousMonthTurnover { get; }
 
-        //decimal DiscountRate { get; }
-
         decimal CalculateCurrentPurchaseDiscount(decimal valueOfPurchase);
 
         decimal GetDiscountRate();
